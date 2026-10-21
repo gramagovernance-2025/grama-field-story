@@ -1,0 +1,539 @@
+{
+  "entries": [
+    {
+      "slug": "first-session-three-federations-one-room",
+      "kind": "event",
+      "category": "field-visit",
+      "visit_number": 1,
+      "district": "Muzaffarpur",
+      "title": "First session: three federations, one room",
+      "findings": [
+        "All three attending federations — Bharat, Anand, and Jai Hind — were non-model federations, a composition that cross-visit comparison later confirmed is more conducive to open discussion than mixing model and non-model status in the same room",
+        "Office Bearers spoke far more than Board of Directors members throughout the session",
+        "Once seating was mixed across federations, concrete differences in routine practice surfaced fast: attendance tracking, KYC document quotas, and penalties for late data entry all turned out to vary federation to federation",
+        "One federation's stalled infrastructure problem — a fallen tree blocking its rented office — got concrete peer suggestions on how to escalate it, rather than through the route it had already tried",
+        "The session closed by collecting attendees' phone numbers to form a dedicated WhatsApp group — the coordination channel this project itself grew out of"
+      ],
+      "about": "The first field visit tested a peer-learning format for Cluster Level Federations (CLFs) — the village-level bodies that coordinate Jeevika's self-help groups — bringing leaders from three non-model federations, Bharat (Minapur), Anand (Sakra), and Jai Hind (Marwan), into one room to discuss their work directly with each other, rather than being trained by outside staff.",
+      "details": "Members were seated together with their own federation at first, so each could get its concerns on the table before discussion opened; once introductions were done, the moderator reshuffled seating so no two members of the same federation sat together. Discussion ranged across seven topics — cadre attendance tracking, the Sakshma Didi/DAK liaison role, KYC and cut-off data entry, Panchayat-level review meetings, CLF office infrastructure, internal meeting structures, and loan repayment from Village Organisations. On KYC, a quota confusion was resolved on the spot when two federations corrected a third's belief that the minimum document requirement was nine rather than ten. On data-entry penalties for cadre staff, one federation cuts pay immediately when work is late; another gives a three-month notice period first and stalls payment rather than cutting it, refunding the full amount once the backlog clears — a split the group debated directly rather than being told which approach was right. The liveliest exchange was practical rather than procedural: one federation's office sits under a half-fallen tree on rented land, and the villagers won't allow it to be cut down; the other two pushed back on the fix already tried (raising it with the local representative) and argued for convening a dedicated meeting with named village designations instead.",
+      "results": "Participants engaged well beyond expectations for an unfamiliar format, and kept producing concrete, transferable comparisons once they stopped describing their own federation and started reacting to someone else's. The clearest open design question going into the next visit was composition: all three federations here were non-model, by chance rather than design, and the team wanted to test deliberately whether mixing status changed the dynamic.",
+      "date_label": "27 August 2026",
+      "event_date": "2026-08-27",
+      "place": "Muzaffarpur",
+      "clf_count": 3,
+      "hero": "first-session-three-federations-one-room-1.jpg",
+      "hero_thumb": "first-session-three-federations-one-room-1-thumb.jpg",
+      "files": [
+        {
+          "path": "first-session-three-federations-one-room-1.jpg",
+          "thumb_path": "first-session-three-federations-one-room-1-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "slug": "second-session-a-status-mismatch-and-a-leadership-dispute",
+      "kind": "event",
+      "category": "field-visit",
+      "visit_number": 2,
+      "district": "Muzaffarpur",
+      "title": "Second session: a status mismatch and a leadership dispute",
+      "findings": [
+        "Mixing federations of different status backfired: Kranti, which holds Model CLF status, set a one-upmanship tone rather than a genuine exchange, with its most vocal member repeatedly holding her own federation up as the standard the other two should meet",
+        "One federation arrived mid-crisis: its Board of Directors hadn't faced re-election in years, so proxy members were sent in their place, and the excluded, genuine Board members showed up separately to contest it",
+        "A district training officer observing the session intervened directly during that dispute, telling members not to air internal grievances — and the room noticeably quieted down for the rest of the session",
+        "Attendance itself ran short and scrambled: the session fell the day after Raksha Bandhan, members were still travelling back, and only 12 of 15 invited leaders made it",
+        "Design correction identified for the rest of the series: keep federations of the same status together, and keep observing officials out of the room"
+      ],
+      "about": "The second visit deliberately varied the federation mix from the first — Kranti (Saraiya), a Model CLF, alongside two non-model federations, Sansar (Bandra) and Azad (Kurhani) — to test how composition affects the dynamic.",
+      "details": "The session was delayed by roughly four hours: it fell the day after Raksha Bandhan, most members were still returning from their natal homes, and one federation's block staff had only told members about the meeting that same morning. Only 12 of the 15 invited leaders attended. One federation arrived carrying an unresolved internal dispute — its Board of Directors hadn't faced re-election in years, so its area coordinator sent proxy members in their place; the real, excluded Board members showed up separately specifically to contest it. That dispute surfaced mid-session and was met with pushback from the other two federations, who argued it should have been resolved internally rather than through outside intervention. A district training officer observing the session then stepped in and told the federation not to air internal grievances in front of the others — visibly dampening how freely anyone spoke for the rest of the session. Away from that flashpoint, the discussion that did happen covered real ground: eKYC verification stuck between 25% and 50% complete across all three federations, all blamed on the same network and face-authentication issues, and a comparison of annual profits — roughly 40 lakh, 29 lakh, and 17 lakh across the three federations — that none could initially recall without prompting.",
+      "results": "The visit produced the clearest design lessons of the series: status mismatches between federations suppress open discussion rather than encouraging it, and an observing official measurably changes how freely participants speak — both corrected for in every subsequent visit. It also surfaced that the \"model federation\" designation is applied informally by staff rather than against fixed, measurable criteria, a finding that would resurface later in Jehanabad.",
+      "date_label": "29 August 2026",
+      "event_date": "2026-08-29",
+      "place": "Muzaffarpur",
+      "clf_count": 3,
+      "hero": "second-session-a-status-mismatch-and-a-leadership-dispute-4.jpg",
+      "hero_thumb": "second-session-a-status-mismatch-and-a-leadership-dispute-4-thumb.jpg",
+      "files": [
+        {
+          "path": "second-session-a-status-mismatch-and-a-leadership-dispute-1.jpg",
+          "thumb_path": "second-session-a-status-mismatch-and-a-leadership-dispute-1-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "second-session-a-status-mismatch-and-a-leadership-dispute-2.jpg",
+          "thumb_path": "second-session-a-status-mismatch-and-a-leadership-dispute-2-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "second-session-a-status-mismatch-and-a-leadership-dispute-3.jpg",
+          "thumb_path": "second-session-a-status-mismatch-and-a-leadership-dispute-3-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "second-session-a-status-mismatch-and-a-leadership-dispute-4.jpg",
+          "thumb_path": "second-session-a-status-mismatch-and-a-leadership-dispute-4-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "second-session-a-status-mismatch-and-a-leadership-dispute-5.jpg",
+          "thumb_path": "second-session-a-status-mismatch-and-a-leadership-dispute-5-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "second-session-a-status-mismatch-and-a-leadership-dispute-6.jpg",
+          "thumb_path": "second-session-a-status-mismatch-and-a-leadership-dispute-6-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "slug": "third-session-real-problems-real-solutions",
+      "kind": "event",
+      "category": "field-visit",
+      "visit_number": 3,
+      "district": "Muzaffarpur",
+      "title": "Third session: real problems, real solutions",
+      "findings": [
+        "The most substantive session of the series so far — but also the one with the strongest pushback on the format itself, with members repeatedly asking the team to simply hand them solutions rather than facilitate an exchange",
+        "Reframing the exercise explicitly as peer learning, rather than the training session the district had told them to expect, visibly won some of the skeptics over mid-session",
+        "The clearest inter-federation comparison yet: RGB meeting attendance payments ranged from Rs 50 to Rs 200 across the three federations present, and members argued openly about what the right number should be",
+        "Loan-repayment penalty policy split three ways — a flat penalty, a smaller, more lenient one, and no penalty at all — with each federation defending its own approach directly to the others",
+        "All three federations, like the first visit, were non-model — reinforcing that same-status grouping produces livelier, less guarded discussion"
+      ],
+      "about": "The third visit returned to the same Muzaffarpur venue with three more non-model federations — Aprajita (Kanti), Sanskar (Sahebganj), and Jeevan Jyoti (Aurai) — and a refined opening: asking participants to describe their daily work rather than opening directly with \"what problems do you face.\"",
+      "details": "Unlike the first two visits, many members here pushed back on the format itself, repeatedly asking the team to simply provide solutions rather than facilitate an exchange between federations — they would have preferred a conventional training session, in line with what the district had told them to expect. The team explained, mid-session, that none of the attendees had known members from other federations or what they were working on before this meeting — that unfamiliarity was the entire point — and the framing appeared to persuade some of the skeptics. Once the room warmed up, concrete differences emerged fast: all three federations are mid-registration on LIC and eKYC with their members, and two of the three had independently converged on the same workaround for a verification glitch. On RGB meeting attendance pay, the three federations pay Rs 50, Rs 100, and Rs 200 respectively, and spent a long stretch of the session arguing, unprompted, about where the number should actually sit. On loan-repayment penalties, one federation fines late Village Organisations Rs 2, another just Rs 1 on the grounds that member households already have low incomes, and a third charges nothing at all, relying on explaining the situation to the family instead — each defended its own approach directly to the other two.",
+      "results": "This session is the strongest evidence yet that the core hypothesis holds: federations have genuinely different, transferable practices for the same shared problems, and a structured conversation surfaces the comparison even when members start out skeptical of the format itself. The clearest open problem heading into the next district: participants still expect training, not peer exchange, and that expectation needs to be set earlier and more explicitly.",
+      "date_label": "2 September 2026",
+      "event_date": "2026-09-02",
+      "place": "Muzaffarpur",
+      "clf_count": 3,
+      "hero": "third-session-real-problems-real-solutions-2.jpg",
+      "hero_thumb": "third-session-real-problems-real-solutions-2-thumb.jpg",
+      "files": [
+        {
+          "path": "third-session-real-problems-real-solutions-1.jpg",
+          "thumb_path": "third-session-real-problems-real-solutions-1-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "third-session-real-problems-real-solutions-2.jpg",
+          "thumb_path": "third-session-real-problems-real-solutions-2-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "third-session-real-problems-real-solutions-3.jpg",
+          "thumb_path": "third-session-real-problems-real-solutions-3-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "third-session-real-problems-real-solutions-4.jpg",
+          "thumb_path": "third-session-real-problems-real-solutions-4-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "slug": "fourth-session-the-information-intervention",
+      "kind": "event",
+      "category": "field-visit",
+      "visit_number": 4,
+      "district": "Jehanabad",
+      "title": "Fourth session: the information intervention",
+      "findings": [
+        "First session in a new district, and the first to test a new five-federation, three-member structure instead of three federations with five each — it worked well enough that every later session adopted it, to widen the sample",
+        "New \"information sheet\" intervention: each member received a printed card with their own federation's real eKYC rate, profit, and number of active subcommittees, pulled straight from the system of record",
+        "Self-estimates were close on simple numbers like eKYC completion, but wildly off on money — profit guesses ranged from 19 to 64 lakh, every one of them higher than the real figure",
+        "No one pushed back on the real numbers once they saw them — members said they simply hadn't known, and the room spent the rest of the session discussing what to do about it",
+        "The first large Office-Bearer skew of the series: 11 of the 15 attendees were Office Bearers rather than Board of Directors members"
+      ],
+      "about": "The fourth visit moved to a new district, Jehanabad, and brought together five federations instead of three — Badal (Ghoshi), Naya Savera (Hulasganj), Om (Kako), Godawari (Makhdumpur), and Sandesh (Ratni Faridpur) — each represented by three members rather than five. It also introduced the series' first major design change: giving each federation a printed sheet of its own real performance data before the group discussion began.",
+      "details": "Before anyone saw the sheet, the team ran a quick round asking members to guess their own federation's numbers. On eKYC completion, most guesses were close to the real figure or actually underestimated it — no federation overstated its own progress. On profit, the gap was large and one-directional: estimates ran from 19 to 64 lakh, every one of them higher than the real number drawn from the system of record. On the number of active subcommittees, guesses were a mix of exactly right and off by one or two. When the real sheet came out — framed deliberately as \"what's been entered into the system\" rather than a report card, to leave room for members to say the data itself might be wrong — there was no pushback at all; people said they simply hadn't known these numbers and seemed glad to have them. All five federations' figures ended up written on a shared board so the room could compare. On the substance, loan repayment ranged from roughly half to three-quarters complete depending on the federation, and discussion turned quickly to what to do about the worse-off ones — one federation suggested unpaid visits in groups of several board and cadre members as the only approach that reliably works; a harsher suggestion, withholding a defaulting member's ID card until payment, came from another.",
+      "results": "The information sheet is now the most effective single trigger for substantive discussion the series has tested, and it produced something the design hadn't anticipated: once the real numbers were visible to everyone in the room, federations in strong shape started offering unprompted advice to the ones in loss, without being asked to. The five-federation, three-member structure also held up well enough that it became the template for every remaining visit.",
+      "date_label": "8 September 2026",
+      "event_date": "2026-09-08",
+      "place": "Jehanabad",
+      "clf_count": 5,
+      "hero": "fourth-session-the-information-intervention-4.jpg",
+      "hero_thumb": "fourth-session-the-information-intervention-4-thumb.jpg",
+      "files": [
+        {
+          "path": "fourth-session-the-information-intervention-1.jpg",
+          "thumb_path": "fourth-session-the-information-intervention-1-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "fourth-session-the-information-intervention-2.jpg",
+          "thumb_path": "fourth-session-the-information-intervention-2-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "fourth-session-the-information-intervention-3.jpg",
+          "thumb_path": "fourth-session-the-information-intervention-3-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fourth-session-the-information-intervention-4.jpg",
+          "thumb_path": "fourth-session-the-information-intervention-4-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fourth-session-the-information-intervention-5.jpg",
+          "thumb_path": "fourth-session-the-information-intervention-5-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "fourth-session-the-information-intervention-6.jpg",
+          "thumb_path": "fourth-session-the-information-intervention-6-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "fourth-session-the-information-intervention-7.jpg",
+          "thumb_path": "fourth-session-the-information-intervention-7-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "slug": "fifth-session-group-and-district-comparisons",
+      "kind": "event",
+      "category": "field-visit",
+      "visit_number": 5,
+      "district": "Jehanabad",
+      "title": "Fifth session: group and district comparisons",
+      "findings": [
+        "Extended the information sheet with a second layer — each federation's own average measured against the district-wide average — giving members a reference point beyond just the five federations in the room",
+        "The gap between self-estimate and reality widened further: one federation guessed a profit of 1.8 lakh against a real figure, confirmed by phone with district staff, of 32 lakh; another guessed a 12 lakh loss against a real loss of just 75,000",
+        "Status didn't predict engagement here either: the oldest, Model-status federation in the room was consistently the most active, while two other Model federations had to be coaxed into speaking — the reverse of the pattern from Muzaffarpur",
+        "Once the comparison sheet came out, discussion shifted fast from individual figures to practical cross-federation advice: which federations had solved their eKYC network problem with a paid WiFi connection, how to actually staff a loan-repayment subcommittee, and how to explain a solar-subsidy scheme members didn't trust",
+        "Members needed real time just to understand what a district \"average\" meant before the comparison sheet made sense to them at all — worth building into the format rather than assuming it as background knowledge"
+      ],
+      "about": "The fifth visit, with Unnati (Modanganj), Prakriti (Hulasganj), Lakshya (Makhdumpur), Mahasagar (Jehanabad Sadar), and Shivam (Kako), kept the information-sheet format from the previous session and added a second comparison: each federation's own figures set against the district-wide average for the same metrics.",
+      "details": "Three Model and two non-model federations were in the room, and status tracked almost nothing about who spoke: the oldest Model federation present, Unnati, was engaged throughout and at points directed the conversation itself; the other two Model federations were comparatively quiet and had to be drawn out. Before the sheets came out, members were asked to guess their own numbers. On profit, every single guess was wrong in the same direction — understated, often by a wide margin: one guessed a loss where the real figure was a 32-lakh profit, another guessed a 2-lakh loss against a real 25-lakh profit. On eKYC, guesses were closer but still consistently pessimistic. Once the real sheet and the district-comparison sheet were both on the table, a fair amount of the session's remaining time went into simply explaining what an \"average\" meant and why the numbers wouldn't match any single federation's figures exactly — once that landed, the room moved on to genuinely useful cross-talk: one federation explained how it had solved network-related eKYC delays by getting its own WiFi connection after six months of internal discussion about the costs; several compared notes on how to get members to actually nominate themselves for loan-repayment subcommittees, including making the role rotational and deliberately drawing its members from different villages so no one has to chase down a neighbour.",
+      "results": "Relative, comparative data moved the room more than individual figures alone did in the previous visit — a useful signal for the final session's design. It also undercut the \"Model federation\" label as a reliable predictor of engagement a second time, this time in the opposite direction from Muzaffarpur: here it was non-model federations, not model ones, that sometimes led the room.",
+      "date_label": "10 September 2026",
+      "event_date": "2026-09-10",
+      "place": "Jehanabad",
+      "clf_count": 5,
+      "hero": "fifth-session-group-and-district-comparisons-7.jpg",
+      "hero_thumb": "fifth-session-group-and-district-comparisons-7-thumb.jpg",
+      "files": [
+        {
+          "path": "fifth-session-group-and-district-comparisons-1.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-1-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fifth-session-group-and-district-comparisons-2.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-2-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fifth-session-group-and-district-comparisons-3.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-3-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "fifth-session-group-and-district-comparisons-4.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-4-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fifth-session-group-and-district-comparisons-5.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-5-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fifth-session-group-and-district-comparisons-6.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-6-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fifth-session-group-and-district-comparisons-7.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-7-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "fifth-session-group-and-district-comparisons-8.jpg",
+          "thumb_path": "fifth-session-group-and-district-comparisons-8-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "slug": "sixth-session-closing-out-the-series",
+      "kind": "event",
+      "category": "field-visit",
+      "visit_number": 6,
+      "district": "Jehanabad",
+      "title": "Sixth session: closing out the series",
+      "findings": [
+        "Swapped the unreliable profit metric for loans disbursed per Village Organisation, and added each federation's own rank among the five in the room — both held up as well as the original design",
+        "Far less pushback on the numbers this time, because the replacement metric was simply more accurate than profit had been — a data-quality fix, not a format fix",
+        "The ranking triggered a visible emotional reaction that profit numbers alone hadn't: the federation ranked first was pleased, the one ranked third called itself \"satisfied, in the middle\" — rank seemed to land even when raw figures didn't",
+        "One especially experienced member, a former Jeevika helpdesk staffer, effectively took over moderating the room by the second half — modelling the kind of peer mentoring the series had been hoping to see emerge organically",
+        "The exit survey was split for the first time into what members learned from each other versus what they learned from the sheet, plus a usefulness rating — most called the loan and subcommittee information useful; a couple said it only repeated what their federation already discusses internally"
+      ],
+      "about": "The sixth and final visit — Ganga Sagar (Jehanabad Sadar), Sangharsh (Ratni Faridpur), Ambar (Modanganj), Sundaram (Kako), and Udan (Ghoshi), all five non-model — closed out the series with a refined version of the information sheet: loan demand per Village Organisation in place of profit, plus each federation's rank against the other four.",
+      "details": "Replacing profit with loans-disbursed-per-VO produced a noticeably calmer reaction than earlier sessions: the figures were closer to what members already believed, so less time went into litigating the data and more into the substance — loan recovery tactics, DKR (dairy/kitchen-unit) setup requirements, and a solar-subsidy scheme two federations had misunderstood in opposite directions until a third walked them through the actual cost split. The ranking was new, and its effect was less about information and more about how it felt: the federation that came first was visibly pleased, and the one that came third described itself as satisfied just to be \"in the middle\" rather than at the bottom. One member, who had previously worked at the district's Jeevika helpdesk, took over much of the room's moderation by the second half — pushing a quieter federation to explain why a repayment subcommittee it had set up a year earlier still wasn't functioning, and offering a concrete escalation ladder for loan defaults (a reminder first, then a written warning, then a bank notice) to a federation that had resorted to threats instead.",
+      "results": "The series closes with confirmation that the core design travels: five federations, a real-data information sheet, minimal staff presence, holds up across three different metrics — eKYC, profit, and loan demand — and two different districts. The swap to a more reliable metric in this final session, and the muted reaction that followed, is itself a finding: participants' skepticism in earlier visits tracked genuine data-quality problems in the underlying system, not distrust of the exercise.",
+      "date_label": "12 September 2026",
+      "event_date": "2026-09-12",
+      "place": "Jehanabad",
+      "clf_count": 5,
+      "hero": "sixth-session-closing-out-the-series-3.jpg",
+      "hero_thumb": "sixth-session-closing-out-the-series-3-thumb.jpg",
+      "files": [
+        {
+          "path": "sixth-session-closing-out-the-series-1.jpg",
+          "thumb_path": "sixth-session-closing-out-the-series-1-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "sixth-session-closing-out-the-series-2.jpg",
+          "thumb_path": "sixth-session-closing-out-the-series-2-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "sixth-session-closing-out-the-series-3.jpg",
+          "thumb_path": "sixth-session-closing-out-the-series-3-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "sixth-session-closing-out-the-series-4.jpg",
+          "thumb_path": "sixth-session-closing-out-the-series-4-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        },
+        {
+          "path": "sixth-session-closing-out-the-series-5.jpg",
+          "thumb_path": "sixth-session-closing-out-the-series-5-thumb.jpg",
+          "width": 1600,
+          "height": 1200,
+          "caption": ""
+        },
+        {
+          "path": "sixth-session-closing-out-the-series-6.jpg",
+          "thumb_path": "sixth-session-closing-out-the-series-6-thumb.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": ""
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "title": "Six Field Visits, Two Districts",
+    "intro": "Between August and September 2026, GRAMA ran six field visits with Jeevika self-help-group federations across Muzaffarpur and Jehanabad, Bihar — testing whether getting federation leaders to talk to each other surfaces more than a training session ever could.",
+    "total_leaders": 87,
+    "consolidated": {
+      "heading": "Across All Six Visits",
+      "intro": "Taken together, the six sessions test one underlying idea: that federation leaders learn more from structured conversation with each other than from being trained by outside staff. Results from Muzaffarpur and Jehanabad converge on a consistent set of findings.",
+      "worked_heading": "What worked",
+      "worked": [
+        "The information sheet — each federation seeing its own real performance numbers before discussion began — was the single most reliable driver of substantive engagement, and it kept working as the team evolved it: first a basic data card, then a comparison against the district average, then a full ranking against the other four federations in the room.",
+        "Keeping federations of the same status together (all model or all non-model) produced livelier, more open discussion than mixing them — confirmed directly in Muzaffarpur, where a single Model federation dominated a room of two non-model ones.",
+        "Minimal staff presence correlated with more open discussion in every session; the one visit with an observing district official in the room was also the one where discussion visibly closed up mid-session.",
+        "The format scaled cleanly from three federations with five members each to five federations with three members each, with no loss in discussion quality — the wider structure became the template for every session after the first three.",
+        "Once real performance gaps were visible, stronger federations spontaneously started giving weaker ones concrete, specific advice — on loan recovery tactics, subcommittee staffing, and workarounds for network-dependent registration — without being asked to."
+      ],
+      "open_heading": "What didn't, and open questions",
+      "open": [
+        "Participants in nearly every session initially expected a conventional training session, not a conversation between peers — several pushed back hard on the format itself before coming around partway through.",
+        "The formal model/non-model status, assigned by staff rather than measurable criteria, didn't predict engagement consistently: it explained the dynamic clearly in Muzaffarpur, but in Jehanabad the oldest Model federation present was the most active in the room, while two other Model federations had to be coaxed into speaking.",
+        "Logistics mattered more than expected — a festival weekend, an unannounced meeting, and an unresolved internal leadership dispute at one federation disrupted a session significantly, pointing to firmer coordination with staff ahead of each visit.",
+        "Early skepticism about the accuracy of the figures shown to members was often justified: profit estimates were wrong in every instance in one session, and the team eventually swapped the metric itself — loan demand in place of profit — rather than keep defending data members didn't trust."
+      ],
+      "results_heading": "What it produced",
+      "results": "Across the six visits, participants surfaced a wide and specific range of practical ideas — the kind of operational, federation-specific knowledge that doesn't typically surface through formal top-down training. A sample of what actually got exchanged, room to room:",
+      "results_items": [
+        {
+          "label": "Loan recovery tactics",
+          "text": "Staffing a repayment subcommittee with members from different villages, not just their own neighbours, so no one has to chase down someone they know personally; a graduated escalation (reminder, then a written warning, then a bank notice) in place of threats; making the role rotational so members are less reluctant to take it on."
+        },
+        {
+          "label": "RGB attendance pay",
+          "text": "A live benchmark members could act on directly: the same monthly attendance requirement paid anywhere from Rs 50 to Rs 200 depending on the federation, argued out openly once the gap was on the table."
+        },
+        {
+          "label": "Fixing eKYC network failures",
+          "text": "One federation had solved its recurring registration failures by getting its own paid WiFi connection after months of internal debate about the cost — a fix the others hadn't considered until they heard it described."
+        },
+        {
+          "label": "Setting up new income streams",
+          "text": "What it actually takes to start a DKR (a federation-run dairy or kitchen unit): minimal education required, approach the Village Organisation with an Aadhaar card and passbook, and take the roughly Rs 1 group insurance before taking it on."
+        },
+        {
+          "label": "Correcting subsidy misunderstandings",
+          "text": "One federation walked two others through the real cost split on a solar-panel subsidy scheme, after both had been operating for months on an incorrect assumption about what was free and what wasn't."
+        },
+        {
+          "label": "Accessibility workarounds",
+          "text": "A peer-raised fix for members physically unable to complete fingerprint-based eKYC verification — an alternate registration route most federations in the room hadn't known existed."
+        }
+      ],
+      "photos": [
+        {
+          "path": "consolidated-1.jpg",
+          "thumb_path": "consolidated-1-thumb.jpg",
+          "width": 1800,
+          "height": 1350,
+          "caption": "A facilitator opens the session in Muzaffarpur, explaining that the room itself — not an outside trainer — is the source of the day's content."
+        },
+        {
+          "path": "consolidated-2.jpg",
+          "thumb_path": "consolidated-2-thumb.jpg",
+          "width": 1800,
+          "height": 1350,
+          "caption": "The information sheet in use: members review their own federation's real performance data before discussion begins, Jehanabad."
+        },
+        {
+          "path": "consolidated-3.jpg",
+          "thumb_path": "consolidated-3-thumb.jpg",
+          "width": 1800,
+          "height": 1350,
+          "caption": "A peer-learning session in progress, Jehanabad, September 2026."
+        }
+      ]
+    },
+    "how_it_works": {
+      "heading": "How a Peer-Learning Session Works",
+      "intro": "Every field visit follows roughly the same arc, refined a little more each time as the team learned what worked. Here's what actually happens inside one session, from the first federation walking through the door to the exit interviews at the end.",
+      "steps": [
+        {
+          "icon": "badge",
+          "title": "Arrival & registration",
+          "text": "Leaders from three to five federations arrive and register. Each gets an ID tag — the room is about to hold up to fifteen people who need a way to address each other, since the session runs without using anyone's name in the record."
+        },
+        {
+          "icon": "group",
+          "title": "Seated by federation, at first",
+          "text": "Members of the same federation sit together to begin. This gives each group a chance to get its own concerns on the table before the room opens up to everyone else."
+        },
+        {
+          "icon": "bubble",
+          "title": "Framing: this is not training",
+          "text": "Facilitators explain upfront that no one is there to lecture — the room's own members are the content. This has to be repeated and reinforced throughout, since most participants arrive expecting a conventional training session and some push back on the format itself."
+        },
+        {
+          "icon": "topics",
+          "title": "Open discussion, topic by topic",
+          "text": "A moderator keeps the conversation moving — attendance, loan repayment, eKYC registration, subcommittees, livelihoods — without a fixed order, nudging quieter members to speak and keeping any one federation from dominating."
+        },
+        {
+          "icon": "shuffle",
+          "title": "The room gets reshuffled",
+          "text": "Once introductions are done, seats are shuffled so no two members of the same federation are sitting next to each other — forcing the conversation to cross federation lines rather than staying within one group.",
+          "photo": {
+            "path": "how-it-works-5.jpg",
+            "thumb_path": "how-it-works-5-thumb.jpg",
+            "width": 1800,
+            "height": 1350,
+            "caption": "Seats reshuffled and the room opened up: a moderator keeps track on the whiteboard while federations compare notes topic by topic."
+          }
+        },
+        {
+          "icon": "sheet",
+          "title": "The information sheet",
+          "text": "From the fourth visit onward, members are first asked to guess their own federation's numbers, then given a printed sheet with the real figures pulled from the system of record — eKYC rate, profit or loan demand, subcommittee count, and later a district comparison or a ranking against the other federations in the room.",
+          "photo": {
+            "path": "how-it-works-6.jpg",
+            "thumb_path": "how-it-works-6-thumb.jpg",
+            "width": 1272,
+            "height": 1800,
+            "caption": "An actual information sheet handed to a federation during the Jehanabad visits — the federation's name has been blurred for this site."
+          }
+        },
+        {
+          "icon": "exit",
+          "title": "Exit interviews",
+          "text": "As each member leaves, she's asked one question: what's the single most useful thing you learned today, and who did you learn it from. The pattern of who learned what from whom — not names — is what tells the team whether the session actually worked.",
+          "photo": {
+            "path": "how-it-works-7.jpg",
+            "thumb_path": "how-it-works-7-thumb.jpg",
+            "width": 1350,
+            "height": 1800,
+            "caption": "An exit interview in progress — the last stop before a member leaves the room."
+          }
+        },
+        {
+          "icon": "notebook",
+          "title": "Field notes, the same day",
+          "text": "Everything above gets written up as field notes before the next session: what was observed, what came up topic by topic, what worked and what needs to change next time. That document is what this entire site is built from.",
+          "photo": {
+            "path": "how-it-works-8.jpg",
+            "thumb_path": "how-it-works-8-thumb.jpg",
+            "width": 1350,
+            "height": 1800,
+            "caption": "Field notes being written up the same day, from the room."
+          }
+        }
+      ]
+    }
+  },
+  "stats": {
+    "visits": 6,
+    "districts": 2,
+    "clfs": 24,
+    "leaders": 87
+  }
+}
