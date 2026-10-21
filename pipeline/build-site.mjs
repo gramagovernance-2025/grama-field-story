@@ -83,12 +83,17 @@ async function main() {
       slug,
       kind: e.kind || "event",
       category: e.category || "event",
+      visit_number: e.visit_number || null,
+      district: e.district || "",
       title: e.title || "",
-      description: e.description || "",
-      body: e.body || "",
+      findings: Array.isArray(e.findings) ? e.findings : [],
+      about: e.about || "",
+      details: e.details || "",
+      results: e.results || "",
       date_label: e.date_label || "",
       event_date: e.event_date || "",
       place: e.place || "",
+      clf_count: e.clf_count || 0,
       hero: hero ? hero.path : null,
       hero_thumb: hero ? hero.thumb_path : null,
       files,
@@ -98,8 +103,45 @@ async function main() {
 
   outEntries.sort((a, b) => (a.event_date || "").localeCompare(b.event_date || ""));
 
+  const consolidatedPhotoFiles = Array.isArray(settings.consolidated?.photos) ? settings.consolidated.photos : [];
+  const consolidatedFiles = [];
+  for (let i = 0; i < consolidatedPhotoFiles.length; i++) {
+    const processed = await processPhoto(consolidatedPhotoFiles[i], `consolidated-${i + 1}`);
+    if (processed) {
+      consolidatedFiles.push({
+        ...processed,
+        caption: (settings.consolidated.captions && settings.consolidated.captions[consolidatedPhotoFiles[i]]) || "",
+      });
+    }
+  }
+  if (settings.consolidated) {
+    settings.consolidated.photos = consolidatedFiles;
+    delete settings.consolidated.captions;
+  }
+  if (consolidatedFiles.length) {
+    console.log(`✓ consolidated section (${consolidatedFiles.length} photo${consolidatedFiles.length === 1 ? "" : "s"})`);
+  }
+
+  const howSteps = Array.isArray(settings.how_it_works?.steps) ? settings.how_it_works.steps : [];
+  let howPhotoCount = 0;
+  for (let i = 0; i < howSteps.length; i++) {
+    const step = howSteps[i];
+    if (step.photo) {
+      const processed = await processPhoto(step.photo, `how-it-works-${i + 1}`);
+      step.photo = processed ? { ...processed, caption: step.photo_caption || "" } : null;
+      howPhotoCount += processed ? 1 : 0;
+    }
+    delete step.photo_caption;
+  }
+  if (howPhotoCount) {
+    console.log(`✓ how-it-works section (${howPhotoCount} photo${howPhotoCount === 1 ? "" : "s"})`);
+  }
+
   const stats = {
-    milestones: outEntries.filter((e) => e.kind !== "panel").length,
+    visits: outEntries.filter((e) => e.kind !== "panel").length,
+    districts: new Set(outEntries.map((e) => e.district).filter(Boolean)).size,
+    clfs: outEntries.reduce((sum, e) => sum + (e.clf_count || 0), 0),
+    leaders: settings.total_leaders || null,
   };
 
   fs.writeFileSync(

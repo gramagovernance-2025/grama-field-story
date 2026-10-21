@@ -92,12 +92,24 @@ function buildContent(slice, images) {
   return content;
 }
 
+function parseArgs(argv) {
+  const args = { from: null, to: null, _: [] };
+  for (let i = 0; i < argv.length; i++) {
+    if (argv[i] === "--from") args.from = argv[++i];
+    else if (argv[i] === "--to") args.to = argv[++i];
+    else args._.push(argv[i]);
+  }
+  return args;
+}
+
 async function main() {
-  const inputPath = process.argv[2];
+  const args = parseArgs(process.argv.slice(2));
+  const inputPath = args._[0];
   if (!inputPath) {
-    console.error("Usage: npm run extract -- <path-to-whatsapp-export>");
+    console.error("Usage: npm run extract -- <path-to-whatsapp-export> [--from YYYY-MM-DD] [--to YYYY-MM-DD]");
     console.error("  <path-to-whatsapp-export> is the .zip from WhatsApp's Export Chat (with media),");
     console.error("  a plain .txt, or an already-unzipped folder.");
+    console.error("  --from/--to restrict extraction to messages sent in that date range (inclusive).");
     process.exit(1);
   }
   const apiKey = process.env.ANTHROPIC_API_KEY;
@@ -109,11 +121,21 @@ async function main() {
 
   console.log(`Reading ${inputPath} ...`);
   const { text, mediaDir } = loadExportSource(inputPath);
-  const parsed = parseWhatsAppExport(text);
+  let parsed = parseWhatsAppExport(text);
   if (!parsed.length) {
     console.error("No WhatsApp messages recognized. Expected lines like \"[12:48, 09/08/2026] Name: message\".");
     console.error("First 200 chars of the file:\n" + text.slice(0, 200));
     process.exit(1);
+  }
+  if (args.from || args.to) {
+    const before = parsed.length;
+    parsed = parsed.filter((m) => {
+      const d = m.sent_at.slice(0, 10);
+      if (args.from && d < args.from) return false;
+      if (args.to && d > args.to) return false;
+      return true;
+    });
+    console.log(`Filtered to ${parsed.length}/${before} messages between ${args.from || "…"} and ${args.to || "…"}.`);
   }
   hashMessages(parsed);
 

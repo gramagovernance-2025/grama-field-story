@@ -12,8 +12,10 @@ export function buildEntrySchema() {
     date_label: z.string(),
     source_message_indexes: z.array(z.number()),
     title: z.string(),
-    description: z.string(),
-    body: z.string(),
+    findings: z.array(z.string()),
+    about: z.string(),
+    details: z.string(),
+    results: z.string(),
     place: z.string(),
   });
   return z.object({ entries: z.array(EntrySchema) });

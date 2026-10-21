@@ -1,12 +1,14 @@
 # grama-field-story
 
-Turns a WhatsApp chat export from GRAMA's field-pilot coordination group into
-a dynamic "Field Notes" story page for gramagovernance.com — in the editorial
-style of [Redrawing the Map](https://gramagovernance.com/Redrawing-the-Map/),
-with the scrolling-timeline mechanics of [SACCI's story page](https://sacci.net/story.html).
+Turns a WhatsApp chat export from GRAMA's field coordination group into a
+dynamic "Field Visits" story page for gramagovernance.com — in the editorial
+style of [Redrawing the Map](https://gramagovernance.com/Redrawing-the-Map/).
+Entries are grouped by district, each with a Top Findings summary up front
+and About/What Happened/Results sections, and never name individual people —
+results and outputs only.
 
-Static site, no backend. Pilots are infrequent, so the flow is: export the
-chat after a pilot wraps up, run the pipeline, review what it found, publish.
+Static site, no backend. Field visits are infrequent, so the flow is: export
+the chat after a visit wraps up, run the pipeline, review what it found, publish.
 
 ## How it works
 
@@ -40,25 +42,33 @@ data/raw/<export>  →  extract.mjs  →  data/proposed-entries.json  (unreviewe
    export copied into `data/media/`. Nothing is published yet.
 
 3. **Review.** Open `data/proposed-entries.json`. For each entry you want to
-   publish, check/edit `title`, `description`, `body`, `event_date`,
-   `date_label`, `category`, `place`, trim `photos` down to the ones worth
-   showing, and caption them. Copy the entries you're keeping into
-   `data/story.json` (an array, or `{entries: [...], settings: {...}}` — see
-   below), and set `is_public: true` on each. Run extract again any time —
-   new entries append to `proposed-entries.json` without touching ones
-   already reviewed into `story.json`.
+   publish, check/edit `title`, `findings`, `about`, `details`, `results`,
+   `event_date`, `date_label`, `category`, `place` — rewrite anything that
+   still reads like a narrative rather than results-first, and double check
+   no individual is named. Add `district` (used to group the page's
+   sections) and `visit_number` (this entry's position within the published
+   set). Trim `photos` down to the ones worth showing and caption them. Copy
+   the entries you're keeping into `data/story.json` (an array, or
+   `{entries: [...], settings: {...}}` — see below), and set
+   `is_public: true` on each. Run extract again any time — new entries
+   append to `proposed-entries.json` without touching ones already reviewed
+   into `story.json`.
 
    `data/story.json` entry shape:
    ```json
    {
      "is_public": true,
      "slug": "optional-custom-slug",
-     "category": "pilot",
+     "category": "field-visit",
+     "district": "Muzaffarpur",
+     "visit_number": 1,
      "event_date": "2026-03-12",
-     "date_label": "March 2026",
+     "date_label": "12 March 2026",
      "title": "...",
-     "description": "...",
-     "body": "...",
+     "findings": ["A specific, concrete result.", "Another one."],
+     "about": "Why this visit happened / what was being tested.",
+     "details": "What actually happened, told plainly.",
+     "results": "What this visit produced or changed.",
      "place": "Village, Block",
      "photos": ["IMG-20260312-WA0007.jpg"],
      "hero_photo": "IMG-20260312-WA0007.jpg",
@@ -90,13 +100,12 @@ data/raw/<export>  →  extract.mjs  →  data/proposed-entries.json  (unreviewe
 ## Customizing for the actual chat
 
 Edit `pipeline/config.mjs` before your first `extract` run:
-- `PEOPLE` — who's who in the group (WhatsApp display name → real name/role),
-  so the model doesn't have to guess. Same idea as SACCI's "Appa is Dr.
-  Vidyasagar" line.
-- `CATEGORIES` — the tags a dispatch can be filed under (defaults: pilot,
-  field-visit, finding, partnership, milestone, event).
+- `CATEGORIES` — the tags an entry can be filed under (defaults: field-visit,
+  finding, partnership, milestone, event).
 - `buildSystemPrompt()` — the extraction instructions themselves, if the
-  defaults need tuning once you see what real output looks like.
+  defaults need tuning once you see what real output looks like. Written to
+  never name individuals and to produce results-first `findings`/`about`/
+  `details`/`results` fields rather than a narrative.
 
 ## Project layout
 
