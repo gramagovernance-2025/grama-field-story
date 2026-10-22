@@ -132,6 +132,18 @@ async function main() {
       howPhotoCount += processed ? 1 : 0;
     }
     delete step.photo_caption;
+    if (Array.isArray(step.photos)) {
+      const processedPhotos = [];
+      for (let j = 0; j < step.photos.length; j++) {
+        const entry = step.photos[j];
+        const processed = await processPhoto(entry.file, `how-it-works-${i + 1}-${j + 1}`);
+        if (processed) {
+          processedPhotos.push({ ...processed, caption: entry.caption || "" });
+          howPhotoCount++;
+        }
+      }
+      step.photos = processedPhotos;
+    }
   }
   if (howPhotoCount) {
     console.log(`✓ how-it-works section (${howPhotoCount} photo${howPhotoCount === 1 ? "" : "s"})`);

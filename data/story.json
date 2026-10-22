@@ -1,7 +1,7 @@
 {
   "settings": {
     "title": "Six Field Visits, Two Districts",
-    "intro": "Between August and September 2026, GRAMA ran six field visits with Jeevika self-help-group federations across Muzaffarpur and Jehanabad, Bihar — testing whether getting federation leaders to talk to each other surfaces more than a training session ever could.",
+    "intro": "Between August and September 2026, GRAMA ran six field visits with JEEViKA Cluster Level Federations (CLFs) — the village-level bodies that coordinate JEEViKA's self-help groups — across Muzaffarpur and Jehanabad, Bihar, testing whether getting federation leaders to talk to each other surfaces more than a training session ever could.",
     "total_leaders": 87,
     "consolidated": {
       "heading": "Across All Six Visits",
@@ -51,12 +51,12 @@
       ],
       "photos": [
         "CONS-20260902-framing.jpg",
-        "CONS-20260910-info-sheet.jpg",
+        "CONS-20260912-framing2.jpg",
         "CONS-20260912-discussion.jpg"
       ],
       "captions": {
         "CONS-20260902-framing.jpg": "A facilitator opens the session in Muzaffarpur, explaining that the room itself — not an outside trainer — is the source of the day's content.",
-        "CONS-20260910-info-sheet.jpg": "The information sheet in use: members review their own federation's real performance data before discussion begins, Jehanabad.",
+        "CONS-20260912-framing2.jpg": "A facilitator addresses a seated group during a Jehanabad session.",
         "CONS-20260912-discussion.jpg": "A peer-learning session in progress, Jehanabad, September 2026."
       }
     },
@@ -67,16 +67,9 @@
         {
           "icon": "badge",
           "title": "Arrival & registration",
-          "text": "Leaders from three to five federations arrive and register. Each gets an ID tag — the room is about to hold up to fifteen people who need a way to address each other, since the session runs without using anyone's name in the record.",
+          "text": "Leaders from three to five federations arrive and register. Each gets an ID tag — with up to fifteen people in the room, it's easier for the note-taker to keep track of who said what.",
           "photo": "HOW-arrival-registration.jpg",
           "photo_caption": "Members arriving and registering ahead of a session."
-        },
-        {
-          "icon": "group",
-          "title": "Seated by federation, at first",
-          "text": "Members of the same federation sit together to begin. This gives each group a chance to get its own concerns on the table before the room opens up to everyone else.",
-          "photo": "HOW-seated-by-federation.jpg",
-          "photo_caption": "Federations seated together at the start of a session, before seats are reshuffled."
         },
         {
           "icon": "bubble",
@@ -86,11 +79,13 @@
           "photo_caption": "A facilitator framing the session as peer discussion, not training."
         },
         {
-          "icon": "topics",
-          "title": "Open discussion, topic by topic",
-          "text": "A moderator keeps the conversation moving — attendance, loan repayment, eKYC registration, subcommittees, livelihoods — without a fixed order, nudging quieter members to speak and keeping any one federation from dominating.",
-          "photo": "HOW-open-discussion.jpg",
-          "photo_caption": "Open, topic-by-topic discussion underway."
+          "icon": "group",
+          "title": "Seated by federation, then open discussion",
+          "text": "Members of the same federation sit together to begin, giving each group a chance to get its own concerns on the table. From there, a moderator keeps the conversation moving across topics — attendance, loan repayment, eKYC registration, subcommittees, livelihoods — without a fixed order, nudging quieter members to speak and keeping any one federation from dominating.",
+          "photos": [
+            { "file": "HOW-seated-by-federation.jpg", "caption": "Federations seated together at the start of a session." },
+            { "file": "HOW-open-discussion.jpg", "caption": "Open, topic-by-topic discussion underway." }
+          ]
         },
         {
           "icon": "shuffle",
@@ -112,13 +107,6 @@
           "text": "As each member leaves, she's asked one question: what's the single most useful thing you learned today, and who did you learn it from. The pattern of who learned what from whom — not names — is what tells the team whether the session actually worked.",
           "photo": "HOW-20260912-exit-interview.jpg",
           "photo_caption": "An exit interview in progress — the last stop before a member leaves the room."
-        },
-        {
-          "icon": "notebook",
-          "title": "Field notes, the same day",
-          "text": "Everything above gets written up as field notes before the next session: what was observed, what came up topic by topic, what worked and what needs to change next time. That document is what this entire site is built from.",
-          "photo": "HOW-20260912-notes.jpg",
-          "photo_caption": "Field notes being written up the same day, from the room."
         }
       ]
     }
