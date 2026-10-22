@@ -186,9 +186,9 @@ a{color:inherit;}
 /* ─── HOW IT WORKS ─── */
 .how-it-works{background:var(--surface);border-top:1px solid var(--rule);padding:clamp(40px,6vw,64px) clamp(16px,4vw,48px) clamp(48px,7vw,80px);}
 .how-it-works .inner{max-width:var(--max);margin:0 auto;}
-.how-it-works .section-label{font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:8px;}
-.how-it-works h2{font-family:var(--f-display);font-size:clamp(1.6rem,3vw,2.1rem);font-weight:600;color:var(--ink);margin-bottom:14px;}
-.how-intro{font-size:1.04rem;line-height:1.75;color:var(--ink-2);max-width:72ch;margin-bottom:40px;}
+.how-it-works .section-label{font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:8px;text-align:center;}
+.how-it-works h2{font-family:var(--f-display);font-size:clamp(1.6rem,3vw,2.1rem);font-weight:600;color:var(--ink);margin-bottom:14px;text-align:center;}
+.how-intro{font-size:1.04rem;line-height:1.75;color:var(--ink-2);max-width:72ch;margin:0 auto 40px;text-align:center;}
 .how-steps{display:grid;grid-template-columns:1fr 32px 1fr 32px 1fr;align-items:stretch;}
 .how-node{display:flex;flex-direction:column;background:var(--sunk);border:1px solid var(--rule);border-radius:16px;padding:22px 22px 20px;}
 .how-node-top{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
@@ -201,6 +201,8 @@ a{color:inherit;}
 .how-photo img{width:100%;height:auto;display:block;aspect-ratio:4/3;object-fit:cover;transition:transform .6s ease;}
 .how-photo:hover img{transform:scale(1.05);}
 .how-photo-cap{font-size:.76rem;color:var(--muted);margin-top:7px;line-height:1.5;}
+.how-photo-duo{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px;}
+.how-photo-duo .how-photo{margin-top:0;}
 .how-link-h{align-self:center;justify-self:stretch;height:5px;background:var(--accent2);border-radius:3px;position:relative;min-width:16px;box-shadow:0 1px 3px rgba(0,0,0,.15);}
 .how-link-v{justify-self:center;align-self:stretch;width:5px;background:var(--accent2);border-radius:3px;position:relative;min-height:16px;box-shadow:0 1px 3px rgba(0,0,0,.15);}
 .how-link-h::after,.how-link-v::after{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:26px;height:26px;border-radius:50%;background:var(--accent2);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;box-shadow:0 3px 8px rgba(0,0,0,.3);border:2px solid var(--surface);}
@@ -506,7 +508,11 @@ function renderHowItWorks(){
   document.getElementById('howHeading').textContent=h.heading||'';
   document.getElementById('howIntro').textContent=h.intro||'';
   var steps=h.steps,cols=3,gIdx=0,html='';
-  howGallery=steps.filter(function(s){return s.photo;}).map(function(s){return s.photo;});
+  howGallery=[];
+  steps.forEach(function(s){
+    if(s.photo)howGallery.push(s.photo);
+    if(Array.isArray(s.photos))s.photos.forEach(function(p){howGallery.push(p);});
+  });
   function visualCol(i){
     var row=Math.floor(i/cols),colInRow=i%cols;
     return (row%2===0)?colInRow:(cols-1-colInRow);
@@ -520,6 +526,11 @@ function renderHowItWorks(){
     if(s.photo){
       var f=s.photo,idx=gIdx++;
       photoHtml='<a class="how-photo" href="'+IMAGES+esc(f.path)+'" onclick="openLb('+idx+',howGallery);return false;"><img src="'+IMAGES+esc(f.thumb_path||f.path)+'" alt="'+esc(f.caption||'')+'" loading="lazy" decoding="async"></a>'+(f.caption?'<div class="how-photo-cap">'+esc(f.caption)+'</div>':'');
+    } else if(Array.isArray(s.photos)&&s.photos.length){
+      photoHtml='<div class="how-photo-duo">'+s.photos.map(function(f){
+        var idx=gIdx++;
+        return '<div><a class="how-photo" href="'+IMAGES+esc(f.path)+'" onclick="openLb('+idx+',howGallery);return false;"><img src="'+IMAGES+esc(f.thumb_path||f.path)+'" alt="'+esc(f.caption||'')+'" loading="lazy" decoding="async"></a>'+(f.caption?'<div class="how-photo-cap">'+esc(f.caption)+'</div>':'')+'</div>';
+      }).join('')+'</div>';
     }
     html+='<div class="how-node" style="grid-row:'+gridRow+';grid-column:'+gridCol+'"><div class="how-node-top"><div class="how-icon">'+icon+'</div><div><div class="how-step-num">Step '+(i+1)+'</div><div class="how-step-title">'+esc(s.title||'')+'</div></div></div><div class="how-step-text">'+esc(s.text||'')+'</div>'+photoHtml+'</div>';
     if(i<steps.length-1){
