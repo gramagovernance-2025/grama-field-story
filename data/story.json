@@ -462,22 +462,50 @@
         {
           "icon": "badge",
           "title": "Arrival & registration",
-          "text": "Leaders from three to five federations arrive and register. Each gets an ID tag — the room is about to hold up to fifteen people who need a way to address each other, since the session runs without using anyone's name in the record."
+          "text": "Leaders from three to five federations arrive and register. Each gets an ID tag — the room is about to hold up to fifteen people who need a way to address each other, since the session runs without using anyone's name in the record.",
+          "photo": {
+            "path": "how-it-works-1.jpg",
+            "thumb_path": "how-it-works-1-thumb.jpg",
+            "width": 1200,
+            "height": 1600,
+            "caption": "Members arriving and registering ahead of a session."
+          }
         },
         {
           "icon": "group",
           "title": "Seated by federation, at first",
-          "text": "Members of the same federation sit together to begin. This gives each group a chance to get its own concerns on the table before the room opens up to everyone else."
+          "text": "Members of the same federation sit together to begin. This gives each group a chance to get its own concerns on the table before the room opens up to everyone else.",
+          "photo": {
+            "path": "how-it-works-2.jpg",
+            "thumb_path": "how-it-works-2-thumb.jpg",
+            "width": 1600,
+            "height": 1200,
+            "caption": "Federations seated together at the start of a session, before seats are reshuffled."
+          }
         },
         {
           "icon": "bubble",
           "title": "Framing: this is not training",
-          "text": "Facilitators explain upfront that no one is there to lecture — the room's own members are the content. This has to be repeated and reinforced throughout, since most participants arrive expecting a conventional training session and some push back on the format itself."
+          "text": "Facilitators explain upfront that no one is there to lecture — the room's own members are the content. This has to be repeated and reinforced throughout, since most participants arrive expecting a conventional training session and some push back on the format itself.",
+          "photo": {
+            "path": "how-it-works-3.jpg",
+            "thumb_path": "how-it-works-3-thumb.jpg",
+            "width": 1800,
+            "height": 1350,
+            "caption": "A facilitator framing the session as peer discussion, not training."
+          }
         },
         {
           "icon": "topics",
           "title": "Open discussion, topic by topic",
-          "text": "A moderator keeps the conversation moving — attendance, loan repayment, eKYC registration, subcommittees, livelihoods — without a fixed order, nudging quieter members to speak and keeping any one federation from dominating."
+          "text": "A moderator keeps the conversation moving — attendance, loan repayment, eKYC registration, subcommittees, livelihoods — without a fixed order, nudging quieter members to speak and keeping any one federation from dominating.",
+          "photo": {
+            "path": "how-it-works-4.jpg",
+            "thumb_path": "how-it-works-4-thumb.jpg",
+            "width": 1800,
+            "height": 1350,
+            "caption": "Open, topic-by-topic discussion underway."
+          }
         },
         {
           "icon": "shuffle",
