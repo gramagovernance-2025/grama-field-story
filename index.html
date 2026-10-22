@@ -293,6 +293,13 @@ footer a{color:var(--hero-ink);text-decoration:underline;}
   </div>
 </section>
 
+<section class="jump-ctas" id="jumpCtas" hidden>
+  <div class="inner">
+    <div class="label">Jump to a district</div>
+    <div class="district-ctas" id="districtCtas"></div>
+  </div>
+</section>
+
 <section class="consolidated" id="consolidated" hidden>
   <div class="inner">
     <div class="section-label">Consolidated Findings</div>
@@ -314,13 +321,6 @@ footer a{color:var(--hero-ink);text-decoration:underline;}
       <p id="consResults"></p>
       <div class="cons-results-grid" id="consResultsGrid"></div>
     </div>
-  </div>
-</section>
-
-<section class="jump-ctas" id="jumpCtas" hidden>
-  <div class="inner">
-    <div class="label">Jump to a district</div>
-    <div class="district-ctas" id="districtCtas"></div>
   </div>
 </section>
 
@@ -389,21 +389,7 @@ function districtGroups(){
 function goToDistrict(name){
   var el=document.querySelector('.visit-tile[data-district="'+name+'"]');
   if(!el)return;
-  var row=document.querySelector('.tile-row');
-  // Content moves under a stationary cursor as the page scrolls, and the
-  // browser hit-tests that as real mouse movement — firing a genuine
-  // mouseenter on whatever tile ends up under the cursor, fighting the
-  // programmatic expand below. Block hover entirely for the scroll's
-  // duration so only our own class change takes effect; by the time events
-  // are re-enabled the mouse hasn't actually moved, so nothing spurious fires.
-  if(row)row.style.pointerEvents='none';
   el.scrollIntoView({behavior:'reduced-motion' in window?'auto':'smooth',block:'center',inline:'center'});
-  setTimeout(function(){
-    document.querySelectorAll('.visit-tile.expanded').forEach(function(t){if(t!==el)t.classList.remove('expanded');});
-    el.classList.add('expanded');
-    if(row)row.style.pointerEvents='';
-  },500);
-  setTimeout(function(){el.classList.remove('expanded');},2700);
 }
 function renderDistrictCtas(){
   var g=districtGroups(),root=document.getElementById('districtCtas'),sec=document.getElementById('jumpCtas');
@@ -676,7 +662,7 @@ function doRender(opts){
     if(!opts.keepState)window.scrollTo({top:0,behavior:'instant'});
   } else {
     art.hidden=true;art.innerHTML='';lv.hidden=false;
-    renderHero();renderStats();renderHowItWorks();renderConsolidated();renderDistrictCtas();renderVisits();
+    renderHero();renderStats();renderHowItWorks();renderDistrictCtas();renderConsolidated();renderVisits();
     if(!opts.keepState)window.scrollTo({top:0,behavior:'instant'});
   }
 }
